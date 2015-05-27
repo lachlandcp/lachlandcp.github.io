@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Minecraft";
+    font-style: normal;
+    font-weight: normal;
+    src: url("minecraft.ttf");
+}
+
+.exp_bar {
+    background: url("./img/exp_empty.png") no-repeat;
+    width: 364px;
+    height: 10px;
+}
+
+.exp_bar div {
+    background: url("./img/exp_full.png") no-repeat;
+    height: inherit;
+}
+
+.exp_amnt {
+    width: 364px;
+    margin-top: -15px;
+    height: 15px;
+    text-align: center;
+    color: lime;
+    text-shadow: 0px 0px 5.5px #000, 0px 0px 5.5px #000, 0px 0px 5.5px #000;
+    font-size: 20px;
+    font-family: "Minecraft";
+}
