@@ -14,6 +14,7 @@
 .exp_bar div {
     background: url("./img/exp_full.png") no-repeat;
     height: inherit;
+    transition: 1s;
 }
 
 .exp_amnt {
