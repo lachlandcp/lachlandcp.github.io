@@ -1,0 +1,11 @@
+{
+  "name": "imnofox.github.io",
+  "homepage": "https://github.com/imnofox/imnofox.github.io",
+  "authors": [
+    "imnofox <pocketmines@mcpestuffs.com>"
+  ],
+  "private": true,
+  "dependencies": {
+    "normalize.styl": "^3.0.3"
+  }
+}
