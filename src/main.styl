@@ -15,6 +15,42 @@ body
 h1
 	width: 100%
 	text-align: center
+
+#container
+	width: 100%
+	display: block
 	position: absolute
 	top: 50%
 	transform: translateY(-50%)
+	text-align: center
+
+	div
+		display: inline-block
+		text-align: left
+
+	ul
+		display: none
+		border: 1px solid
+		padding: 0
+
+		hr
+			border-top-width: 0px
+			border-color: rgb(26, 188, 156)
+			width: 70%
+			opacity: 0.5
+
+		li
+			list-style: none
+			padding: 5px
+
+			a
+				text-decoration: none
+				color: inherit
+
+				&:hover
+					opacity: 0.75
+
+				&:before
+					content: '> '
+					font-size: 12px
+					vertical-align: middle

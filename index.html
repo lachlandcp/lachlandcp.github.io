@@ -5,5 +5,22 @@
   <link href="css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-  <h1 class="light">imnofox</h1>
+  <div id="container">
+    <div>
+      <h1>imnofox</h1>
+      <ul>
+        <li><a href="/zxc">zxc</a></li>
+        <hr>
+        <li><a href="/projects">projects</a></li>
+      </ul>
+    </div>
+  </div>
 </body>
+<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function () {
+  	$('#container').on('mouseenter mouseleave', function() {
+  		$('#container ul').slideToggle();
+  	});
+  });
+</script>

@@ -5,4 +5,18 @@ head
 	link(href='https://cdn.rawgit.com/be5invis/Iosevka/gh-pages/fonts.css', rel='stylesheet', type='text/css')
 	link(href='css/style.css', rel='stylesheet', type='text/css')
 body
-	h1.light imnofox
+	#container
+		div
+			h1 imnofox
+			ul
+				li: a(href='/zxc') zxc
+				hr
+				li: a(href='/projects') projects
+
+script(src='http://code.jquery.com/jquery-1.12.0.min.js')
+script(type='text/javascript').
+	$(document).ready(function () {
+		$('#container').on('mouseenter mouseleave', function() {
+			$('#container ul').slideToggle();
+		});
+	});
