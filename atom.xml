@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://imnofox.com/"/>
-  <updated>2016-03-21T08:02:29.333Z</updated>
+  <updated>2016-03-21T08:06:17.941Z</updated>
   <id>http://imnofox.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://imnofox.com/p/ModPE++/"/>
     <id>http://imnofox.com/p/ModPE++/</id>
     <published>2016-03-20T10:46:44.000Z</published>
-    <updated>2016-03-21T08:02:29.333Z</updated>
+    <updated>2016-03-21T08:06:17.941Z</updated>
     
     <content type="html">&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/imnofox/modpeplus2&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Check out the github repo!&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;ModPE++&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; is an attempt to provide an alternative API for developers who want an API closer to more advanced systems like Bukkit.&lt;/p&gt;
