@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://imnofox.com/"/>
-  <updated>2016-03-21T08:07:58.270Z</updated>
+  <updated>2016-03-21T08:09:27.396Z</updated>
   <id>http://imnofox.com/</id>
   
   <author>
@@ -20,13 +20,13 @@
     <link href="http://imnofox.com/p/ModPE++/"/>
     <id>http://imnofox.com/p/ModPE++/</id>
     <published>2016-03-20T10:46:44.000Z</published>
-    <updated>2016-03-21T08:07:58.270Z</updated>
+    <updated>2016-03-21T08:09:27.396Z</updated>
     
     <content type="html">&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/imnofox/modpeplus2&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Check out the github repo!&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;ModPE++&lt;sup class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn1&quot; id=&quot;fnref1&quot;&gt;[1]&lt;/a&gt;&lt;/sup&gt; is an attempt to provide an alternative API for developers who want an API closer to more advanced systems like Bukkit.&lt;/p&gt;
 &lt;p&gt;While this is still limited, code can follow a nicer structure.&lt;/p&gt;
 &lt;h2 id=&quot;usage&quot;&gt;&lt;a class=&quot;headerAnchor&quot; href=&quot;#usage&quot;&gt;#&lt;/a&gt;Usage&lt;/h2&gt;
-&lt;figure class=&quot;highlight js&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; ModPEPP;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;dependsLoad&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;require, time&lt;/span&gt;) &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	ModPEPP = &lt;span class=&quot;built_in&quot;&gt;require&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&#39;com.imnofox.modpe++&#39;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; ModPEPP;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;dependsLoad&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;require, time&lt;/span&gt;) &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	ModPEPP = &lt;span class=&quot;built_in&quot;&gt;require&lt;/span&gt;(&lt;span class=&quot;string&quot;&gt;&#39;com.imnofox.modpe++&#39;&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
 &lt;p&gt;Paste this in your script. This function is called when all the dependencies are loaded.&lt;/p&gt;
 &lt;h3 id=&quot;requirements&quot;&gt;&lt;a class=&quot;headerAnchor&quot; href=&quot;#requirements&quot;&gt;#&lt;/a&gt;Requirements&lt;/h3&gt;
 &lt;p&gt;Make sure you have the ModPE++ API installed as another script on the client device.&lt;/p&gt;
