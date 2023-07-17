@@ -1,14 +1,32 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> imnofox</title><meta name="description" content="A collection of things, like most collections."><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="short icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="stylesheet" href="https://cdn.rawgit.com/be5invis/Iosevka/gh-pages/fonts.css" type="text/css"></head><body><header><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link active">BLOG</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="/projects/" target="_self" class="nav-list-link">PROJECTS</a></li><li class="nav-list-item"><a href="https://github.com/imnofox" target="_blank" class="nav-list-link">GITHUB</a></li><li class="nav-list-item"><a href="/contact/" target="_self" class="nav-list-link">CONTACT</a></li></ul></header><section class="container"><ul class="home post-list"><li class="post-list-item"><article class="post-block"><h2 class="post-title"><a href="/p/ModPE-Node/" class="post-title-link">ModPE & Node</a></h2><div class="post-time">Apr 9, 2016</div><div class="post-content"><p>Modding Minecraft Pocket Edition has been easily achieved by writing simple JavaScript files for ages, but obviously this isn’t ideal for developing the complex mods popular now.</p>
-<p><em>Enter Node</em></p>
-<p>By using a combination of NodeJS and various build tools, we can easily build complex ModPE mods.
-This allows us to import third-party modules and structure multiple files in a maintainable way.</p>
-<p>Possibly the greatest benefit of this is the ability to <code>require</code> modules. Developers can now use libraries in the ModPE packages, such as the <a href="https://github.com/sliceofcode/inform" target="_blank" rel="external">inform library</a>.</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> inform = <span class="built_in">require</span>(<span class="string">'inform'</span>);</span><br><span class="line"><span class="keyword">const</span> globe = <span class="built_in">require</span>(<span class="string">'modpe-globe'</span>);</span><br><span class="line"></span><br><span class="line">globe.newLevel = () =&gt; &#123;</span><br><span class="line">  <span class="keyword">let</span> scripts = inform.all();</span><br><span class="line">  <span class="keyword">for</span> (script <span class="keyword">in</span> scripts) &#123;</span><br><span class="line">    scripts[script].call(<span class="string">'customHook'</span>);</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>Obviously, these are just Node modules, however the majority of NPM packages wouldn’t behave as expected in the ModPE environment.</p>
-<h1>But how?</h1>
-<p>The important thing to remember is to use <a href="https://npmjs.com/package/browserify" target="_blank" rel="external">Browserify</a>, and if using ES6, <a href="https://github.com/babel/babelify" target="_blank" rel="external">Babelify</a> is also essential.</p>
-<p><strong>This whole setup, with Grunt, is <a href="https://github.com/imnofox/ModPEtemplate" target="_blank" rel="external">available as a skeleton here</a>.</strong></p>
-<p>One downside of Browserify in this usage is that inability for the ModPE engine to call hooks, such as <code>newLevel</code>, <code>useItem</code>, etc.
-This is easily overcome by utilising the ‘modpe-globe’ module, as shown in the demo code above. This simply provides an entrance to the world outside of the Browserify realm.</p>
-<hr>
-<p>Moving from unweildy &amp; lengthy ModPE scripts to cleaner &amp; organised Node projects is now the smart way to go, especially, when paired with any <a href="https://github.com/imnofox/ModPEtemplate/blob/master/Gruntfile.js" target="_blank" rel="external">build</a> <a href="https://github.com/sliceofcode/flytest/blob/master/flyfile.js" target="_blank" rel="external">tool</a>. Whether it’s feasible for the average ModPE developer is the next question.</p></div><!--a.read-more(href= url_for(item.path))!= __('more')--></article></li></ul></section><footer><div class="paginator"></div><div class="copyright"><p>© 2016 <a href="http://imnofox.com">imnofox</a>, unless otherwise noted.</p></div></footer></body></html>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="X-UA-Compatible" content="IE=edge">
+		<title> Home</title>
+		<style>
+			body {
+				background: linear-gradient(-45deg, #FC9F5B, #FBD1A2, #ECE4B7, #7DCFB6, #33CA7F);
+				background-size: 400% 400%;
+				animation: gradient 15s ease infinite;
+				height: 100vh;
+				margin: 0;
+			}
+
+			@keyframes gradient {
+				0% {
+					background-position: 0% 50%;
+				}
+				50% {
+					background-position: 100% 50%;
+				}
+				100% {
+					background-position: 0% 50%;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		
+	</body>
+	</html>
